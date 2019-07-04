@@ -14,7 +14,7 @@ export default class Header extends Component {
                 <header style={myStyle}>
                     <h1>{this.props.title}</h1>
                     <p>FullStack Web Developper</p>
-                    <a href="#button">{this.props.button}</a>
+                    <a href="#skills">{this.props.button}</a>
                 </header>
             </div>
         )

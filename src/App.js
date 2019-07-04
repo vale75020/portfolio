@@ -8,8 +8,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navigation logoTitle="My Stylish Portfolio"/>
-      <Header title="Valentino Suma" button="More" />
+      <Navigation logoTitle="My Portfolio"/>
+      <Header title="Valentino Suma" button="SKILLS" />
       <About />
       <Services />
     </div>
