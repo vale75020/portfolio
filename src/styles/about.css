@@ -1,0 +1,20 @@
+.about {
+    background-color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.services h2 {
+    font-size: 48px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    color: black;
+}

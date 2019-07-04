@@ -10,7 +10,7 @@ const myStyle = {
 export default class Header extends Component {
     render() {
         return (
-            <div>
+            <div id="Home">
                 <header style={myStyle}>
                     <h1>{this.props.title}</h1>
                     <p>FullStack Web Developper</p>
