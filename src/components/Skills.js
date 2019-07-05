@@ -11,17 +11,17 @@ export default class Skills extends Component {
     }
 
     render() {
+        const ids = [{id:"html"},{id:"css"},{id:"js"},{id:"react"},{id:"mongo"}]
+        const newIds = ids.map(id => {
+            return <div className="iconSkill" id={id.id}></div>
+        })
+
         if(!this.state.expanded){
         return  <p className="skills" onClick={this.openClose}>Show Skills</p> }
         return (
             <div className="container">
             <div id="skills">
-                <div className="iconSkill" id="html"></div>
-                <div className="iconSkill" id="css"></div>
-                <div className="iconSkill" id="js"></div>
-                <div className="iconSkill" id="react"></div>
-                <div className="iconSkill" id="node"></div>
-                <div className="iconSkill" id="mongo"></div>
+                {newIds}
             </div>
             <p className="skills" style={{marginTop:"30px"}} onClick={this.openClose}>Hide Skills</p>
             </div>
