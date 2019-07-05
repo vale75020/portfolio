@@ -10,7 +10,7 @@ export default class Navigation extends Component {
             )
         });
         return (
-            <div>
+            <div className="container">
                 <nav>
                     <h2 className="logo">{this.props.logoTitle}</h2>
                 <ul>

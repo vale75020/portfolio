@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navigation logoTitle="My Portfolio"/>
-      <Header title="Valentino Suma" button="SKILLS" />
+      <Header title="Valentino Suma" button="SHOW SKILLS" />
       <About />
       <Services />
     </div>

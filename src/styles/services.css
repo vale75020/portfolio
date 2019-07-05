@@ -21,6 +21,7 @@
 
 .services > .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 } 
 
@@ -51,7 +52,6 @@
     font-family: inherit;
     font-weight: 500;
     line-height: 1.2;
-    color: inherit;
     font-size: 16px;
     color: white;
 }
@@ -60,4 +60,6 @@
     contain:none;
     width: 30px;
 }
+
+
 

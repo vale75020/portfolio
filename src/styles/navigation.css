@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #1d809f;
     align-items: center;
@@ -7,7 +8,8 @@ nav {
 }
 
 nav ul {
-    list-style: none
+    list-style: none;
+    align-items: center;padding:0;
 }
 
 nav ul li {
@@ -16,9 +18,24 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0.1);
+    font-weight: 700;
+    background-color: #1d809f; 
     color: white;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin: 5px auto;
+    min-width: 130px;
 }
+
+nav ul li a:hover {
+    background-color:white;
+    color:#1d809f;
+}
+
+
 .logo {
     font-size: 30px;
     color: white;

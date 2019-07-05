@@ -18,6 +18,9 @@
     font-size: 48px;
     margin-bottom: 48px;
     margin-top: 0;
-    color: black;
-    
+    color: black;  
+}
+
+.container { 
+    width: 100%;
 }

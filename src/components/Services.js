@@ -4,6 +4,7 @@ import "../styles/services.css";
 class Services extends Component {
   render() {
     return (
+      <div className="container">
       <div className="services" id="Services">
         <h3>Services</h3>
         <h2>What we offer</h2>
@@ -14,29 +15,30 @@ class Services extends Component {
           <Icons myIcon={iconObj[3].icon} myTitle={iconObj[3].title} myDescription={iconObj[3].description} myLink={iconObj[3].link} />
         </div>
       </div>
+  </div>
     );
   }
 }
 
 const iconObj = [
   {
-    icon: <span><i class="fas fa-phone"></i></span>,
+    icon: <span><i className="fas fa-phone"></i></span>,
     title: "Phone",
     description: "Call Me"
   },
   {
-    icon: <span><i class="fab fa-linkedin"></i></span>,
+    icon: <span><i className="fab fa-linkedin"></i></span>,
     title: "LinkdIn",
     description: "My Profile",
     link: "https://www.linkedin.com/in/valentino-suma/"
   },
   {
-    icon: <span><i class="fas fa-globe-europe"></i></span>,
+    icon: <span><i className="fas fa-globe-europe"></i></span>,
     title: "Contact",
     description: "Send an e-mail"
   },
   {
-    icon: <span><i class="fab fa-github"></i></span>,
+    icon: <span><i className="fab fa-github"></i></span>,
     title: "GitHub",
     description: "My Projects",
     link: "https://github.com/vale75020"
@@ -46,7 +48,7 @@ const iconObj = [
 class Icons extends Component {
   render() {
     return (
-      <div>
+      <div className="icon">
           <a href={this.props.myLink}>
         <span>
           {this.props.myIcon}
