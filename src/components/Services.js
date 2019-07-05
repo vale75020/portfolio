@@ -14,9 +14,16 @@ const iconObj = [
     link: "https://www.linkedin.com/in/valentino-suma/"
   },
   {
-    icon: <span><i className="fas fa-globe-europe"></i></span>,
-    title: "Contact",
-    description: "Send an e-mail"
+    icon: <span><i className="fab fa-medium-m"></i></span>,
+    title: "Medium",
+    description: "My Histories",
+    link: "https://medium.com/@valentinosuma"
+  },
+  {
+    icon: <span><i className="fab fa-twitter"></i></span>,
+    title: "Twitter",
+    description: "My Account",
+    link: "https://twitter.com/valentino_suma"
   },
   {
     icon: <span><i className="fab fa-github"></i></span>,
@@ -27,28 +34,28 @@ const iconObj = [
 ];
 
 class Services extends Component {
-  state = {
-    small:true
-  }
+  
   render() {
     const iconList = iconObj.map(icon => {
       return (
-              <div className="icon">
-                  <a href={icon.link}>
+        <div key={icon.title}>
+        <a href={icon.link}>
+              <div className="icon" key={icon.title}>
                 <span>
                   {icon.icon}
                 </span>
-                </a>
                 <h4>{icon.title}</h4>
                 <p>{icon.description}</p>
               </div>
+               </a>
+               </div>
             );})
 
     return (
       <div className="container">
       <div className="services" id="Services">
-        <h3>Services</h3>
-        <h2>What we offer</h2>
+        <h3>Contact</h3>
+        <h2>Join Me</h2>
         <div className="row">
           {iconList}
         </div>

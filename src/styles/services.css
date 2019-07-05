@@ -1,65 +1,89 @@
 .services {
-    background-color: #1d809f;
-    padding: 120px 0;
-    text-align: center;
+  background-color: #1d809f;
+  padding: 120px 0;
+  text-align: center;
+  padding: 20px;
 }
 
+a {
+  text-decoration: none;
+}
 .services h3 {
-    font-size: 16px;
-    text-transform: uppercase;
-    color: rgb(236, 184, 7);
-    margin: 0;
-    padding: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgb(236, 184, 7);
+  margin: 0;
+  padding: 0;
 }
 
 .services h2 {
-    font-size: 48px;
-    margin-bottom: 48px;
-    margin-top: 0;
-    color: white;
+  font-size: 48px;
+  margin-bottom: 48px;
+  margin-top: 0;
+  color: white;
 }
 
 .services > .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .services > .row span {
-    background-color: white;
-    width: 150px;
-    height: 150px;
-    display: block;
-    border-radius: 100%;
-    color: #1d809f;
-    font-size: 36px;
-    line-height: 150px;
-    margin: auto;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 100%;
+  color: #229cc2;
+  font-size: 36px;
+  line-height: 150px;
+  margin: auto;
 }
 
 .services > .row h4 {
-    margin-bottom: 0.5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    color: inherit;
-    font-size: 24px;
-    color: white;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  font-size: 24px;
+  color: white;
 }
 
 .services > .row p {
-    margin-bottom: 0.5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 16px;
-    color: white;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 16px;
+  color: white;
 }
 
 .services > .row span i-class {
-    contain:none;
-    width: 30px;
+  contain: none;
+  width: 30px;
 }
 
+.icon {
+    width: 15%;
+    min-width: 250px; 
+  padding: 10px;
+}
 
+.icon:hover {
+  border-radius: 10px;
+  background-color: hsl(194, 70%, 45%);
+}
 
+.icon:hover span {
+}
+.icon:hover .row i-class {
+  contain: none;
+  width: 40px;
+}
+
+.guim {
+    font-size: 100px;
+    color:lightgray;
+}

@@ -3,10 +3,10 @@ import '../styles/navigation.css'
 
 export default class Navigation extends Component {
     render() {
-        const sections = [ 'Home', 'About', 'Services', 'Portfolio', 'Contact'];
+        const sections = [ 'Home', 'About','Portfolio', 'Contact'];
         const navLinks = sections.map(section => {
             return (
-                <li><a href={'#' + section}>{section}</a></li>
+                <li key={section}><a href={'#' + section}>{section}</a></li>
             )
         });
         return (

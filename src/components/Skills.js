@@ -11,11 +11,11 @@ export default class Skills extends Component {
     }
 
     render() {
-        const ids = [{id:"html"},{id:"css"},{id:"js"},{id:"react"},{id:"mongo"}]
+        const ids = [{id:"html"},{id:"css"},{id:"js"},{id:"node"},{id:"react"},{id:"mongo"}]
         const newIds = ids.map(id => {
-            return <div className="iconSkill" id={id.id}></div>
+            return <div className="iconSkill" key={id.id} id={id.id} ></div>
         })
-
+        
         if(!this.state.expanded){
         return  <p className="skills" onClick={this.openClose}>Show Skills</p> }
         return (

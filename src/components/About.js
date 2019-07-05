@@ -6,14 +6,15 @@ export default class Services extends Component {
     return (
       <div className="container">
         <div className="about" id="About">
-          <h2>About me</h2>
-          <h3>
+          <h2 className="aboutTitle">About me</h2>
+          <p>
             Fort d’une expérience professionnelle de 12 ans à Paris, j’ai
             souhaité m’orienter dans le domaine informatique. A ce titre, j’ai
             suivi des formations significatives en développement front end et
             fullstack me permettant d’acquérir des compétences en javascript,
             nodejs, mongodb, react.
-            <br />
+          </p>
+          <p>
             Au cours de mes expériences professionnelles, j’ai pu développer mes
             compétences techniques par la modification de site Web d’entreprise
             sous React et la création Layout en MVC, VSTS, Bootstrap, JQuery.
@@ -22,12 +23,10 @@ export default class Services extends Component {
             (gatsby.js) et l’intégration de nouvelles fonctionnalités me
             conférant une parfaite adaptation technique et professionnelle
             auprès de différentes entités réparties à l’échelle nationale.
-          </h3>
-          <h3>
             Aujourd’hui, je souhaite mettre à profit mes compétences en
             développement Full Stack JavaScript obtenus durant mes deux années
-            d’expériences.
-          </h3>
+            d’expériences.</p>
+
         </div>
       </div>
     );
